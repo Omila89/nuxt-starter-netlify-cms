@@ -3,7 +3,7 @@
     <img :src="image" class="object-cover w-screen" />
     <div class="absolute">
       <div class="flex flex-col justify-center space-y-4 h-hero">
-      <h1>Omila</h1>
+      <h1 class="text-4xl font-extrabold text-white">Omila</h1>
         <h2
           v-if="heading"
           class="px-4 text-2xl font-extrabold text-white bg-kaldi sm:text-3xl md:text-4xl"
